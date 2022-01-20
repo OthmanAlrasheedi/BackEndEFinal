@@ -26,6 +26,6 @@ app.use(Test);
 
 console.log(process.env.PORT);
 
-app.listen(5000, () => {
+app.listen(process.env.PORT, () => {
   console.log("server run on 5000 port");
 });
